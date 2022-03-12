@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Heart Attack Prediction of"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtPatientName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text=""
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/etAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Age"
+            android:inputType="numberDecimal"
+            android:padding="5dp" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:entries="@array/gender"
+            android:padding="3dp" />
+
+        <EditText
+            android:id="@+id/etCp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="CP"
+            android:inputType="numberDecimal"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/etTrestbps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="trestbps"
+            android:inputType="numberDecimal"
+            android:padding="5dp" />
+
+        <EditText
+            android:id="@+id/etChol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Chol"
+            android:inputType="numberDecimal"
+            android:padding="5dp" />
+
+        <EditText
+            android:id="@+id/etfbs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="fbs"
+            android:inputType="numberDecimal"
+            android:padding="5dp" />
+
+        <EditText
+            android:id="@+id/etrestecg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="restecg"
+            android:inputType="numberDecimal"
+            android:padding="5dp" />
+
+        <EditText
+            android:id="@+id/etthalach"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="thalach"
+            android:inputType="numberDecimal"
+            android:padding="5dp" />
+
+        <EditText
+            android:id="@+id/etexang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="exang"
+            android:inputType="numberDecimal"
+            android:padding="5dp" />
+
+        <EditText
+            android:id="@+id/etoldpeak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="oldpeak"
+            android:inputType="numberDecimal"
+            android:padding="5dp" />
+
+
+        <EditText
+            android:id="@+id/etslope"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="slope"
+            android:inputType="numberDecimal"
+            android:padding="5dp" />
+
+
+        <EditText
+            android:id="@+id/etca"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="exang"
+            android:inputType="numberDecimal"
+            android:padding="5dp" />
+
+
+        <EditText
+            android:id="@+id/etthal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="thal"
+            android:inputType="numberDecimal"
+            android:padding="5dp" />
+
+
+        <TextView
+            android:id="@+id/txtOutput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:id="@+id/btnPredict"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Predict" />
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Cancel" />
+    </LinearLayout>
+
+</ScrollView>
